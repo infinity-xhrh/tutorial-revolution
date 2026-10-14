@@ -10,6 +10,10 @@ export const guidesSidebar: Sidebar = [
         link: "guides/links",
     },
     {
+        label: "模型助教",
+        link: "guides/assistant/",
+    },
+    {
         label: "快速入门",
         items: [
             {
