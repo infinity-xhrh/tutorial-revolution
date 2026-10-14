@@ -12,6 +12,10 @@
 
 前往 [`Banner.astro`](./src/components/overrides/Banner.astro)，编辑静态参数 `content` 和 `id`。
 
+### 模型助教
+
+独立助教组件、共享服务配置与测试说明见 [教程革命 AI 助教接入](docs/tutorial-assistant.md)。
+
 ### 文档部分
 
 主文档内容位于 `./src/content/docs/guides` 目录下。
