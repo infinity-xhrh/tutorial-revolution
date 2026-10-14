@@ -1,0 +1,18 @@
+---
+title: 模型助教
+description: 使用教程革命模型助教，提问 Stellaris Mod 开发中的具体问题。
+giscus: false
+tableOfContents: false
+---
+
+import TutorialAssistant from "../../../components/assistant/TutorialAssistant.astro";
+
+这里接入了[教程革命](https://stellaris-mod-academy-hua.cheeky-cup-6627.chatgpt.site/)的独立模型助教。可以询问入门步骤、作用域、本地化和代码排错；回答依据由教程革命维护的公开教程知识库，不会自动读取本站当前文章。
+
+<TutorialAssistant />
+
+问答沿用教程革命现有的 50 美元一次性总预算，与原站共同扣费；预算耗尽或服务暂停时停止调用，本站教程仍可阅读。无需提供个人 API 密钥。
+
+发送时会提交问题和最多六条、共 24000 UTF-8 字节的历史消息。页面不会保存对话到浏览器存储，刷新或离开后不保留；服务端仍会记录调用额度所需的账本。请勿提交密钥、个人信息或未获授权的内容。
+
+单次问题最多 8192 UTF-8 字节；模型最多输出 8192 tokens，包含思考与正文，两者不是相同的长度单位。模型回答不代表经过游戏内验证，使用代码前请结合自己的游戏版本检查。
